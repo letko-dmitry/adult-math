@@ -1,0 +1,1830 @@
+[
+  {
+    "id": "tip-01",
+    "topic": "tipsAndChecks",
+    "questionText": "What's a 20% tip on this bill?",
+    "options": [
+      "$6.60",
+      "$7.20",
+      "$5.40",
+      "$8.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Find the subtotal: $33.00",
+      "Calculate 20%: $33.00 × 0.20 = $6.60"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "THE CORNER BISTRO",
+        "lineItems": [
+          {
+            "name": "Grilled Chicken Sandwich",
+            "price": 14.5
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 9.75
+          },
+          {
+            "name": "Sparkling Water",
+            "price": 3.25
+          },
+          {
+            "name": "Cappuccino",
+            "price": 5.5
+          }
+        ],
+        "subtotal": 33.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-02",
+    "topic": "tipsAndChecks",
+    "questionText": "How much is a 15% tip on this meal?",
+    "options": [
+      "$6.30",
+      "$6.75",
+      "$7.50",
+      "$5.85"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": [
+      "Find the subtotal: $45.00",
+      "Calculate 15%: $45.00 × 0.15 = $6.75"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "SUNNY SIDE CAFE",
+        "lineItems": [
+          {
+            "name": "Eggs Benedict",
+            "price": 16.0
+          },
+          {
+            "name": "Fresh Orange Juice",
+            "price": 6.5
+          },
+          {
+            "name": "Avocado Toast",
+            "price": 13.5
+          },
+          {
+            "name": "Latte",
+            "price": 5.5
+          },
+          {
+            "name": "Fruit Bowl",
+            "price": 3.5
+          }
+        ],
+        "subtotal": 45.0,
+        "tipPercentage": 15,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-03",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the total bill including an 18% tip?",
+    "options": [
+      "$68.44",
+      "$72.00",
+      "$59.16",
+      "$64.90"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $58.00",
+      "Calculate 18% tip: $58.00 × 0.18 = $10.44",
+      "Total: $58.00 + $10.44 = $68.44"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "HARBOR GRILL",
+        "lineItems": [
+          {
+            "name": "Salmon Fillet",
+            "price": 22.0
+          },
+          {
+            "name": "Lobster Bisque",
+            "price": 12.0
+          },
+          {
+            "name": "Garden Salad",
+            "price": 8.5
+          },
+          {
+            "name": "Bread Basket",
+            "price": 4.5
+          },
+          {
+            "name": "Iced Tea (2x)",
+            "price": 7.0
+          },
+          {
+            "name": "Tiramisu",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 58.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-04",
+    "topic": "tipsAndChecks",
+    "questionText": "You're splitting this bill equally among 3 friends. How much does each person pay before tip?",
+    "options": [
+      "$14.00",
+      "$12.67",
+      "$15.33",
+      "$13.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total bill: $42.00",
+      "Split 3 ways: $42.00 ÷ 3 = $14.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "PIZZA PALAZZO",
+        "lineItems": [
+          {
+            "name": "Margherita Pizza (Large)",
+            "price": 18.0
+          },
+          {
+            "name": "Garlic Knots",
+            "price": 6.0
+          },
+          {
+            "name": "House Salad",
+            "price": 8.0
+          },
+          {
+            "name": "Soft Drinks (3x)",
+            "price": 10.0
+          }
+        ],
+        "subtotal": 42.0,
+        "tipPercentage": null,
+        "total": 42.0
+      }
+    }
+  },
+  {
+    "id": "tip-05",
+    "topic": "tipsAndChecks",
+    "questionText": "What's a 20% tip on this dinner?",
+    "options": [
+      "$15.20",
+      "$14.00",
+      "$16.40",
+      "$13.60"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Find the subtotal: $76.00",
+      "Calculate 20%: $76.00 × 0.20 = $15.20"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "LE PETIT JARDIN",
+        "lineItems": [
+          {
+            "name": "French Onion Soup",
+            "price": 11.0
+          },
+          {
+            "name": "Steak Frites",
+            "price": 28.0
+          },
+          {
+            "name": "Coq au Vin",
+            "price": 24.0
+          },
+          {
+            "name": "Glass of Wine (2x)",
+            "price": 13.0
+          }
+        ],
+        "subtotal": 76.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-06",
+    "topic": "tipsAndChecks",
+    "questionText": "Each person pays equally for 4 people. How much per person with a 20% tip?",
+    "options": [
+      "$15.00",
+      "$16.50",
+      "$14.40",
+      "$13.80"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $50.00",
+      "20% tip: $50.00 × 0.20 = $10.00",
+      "Total with tip: $60.00",
+      "Per person: $60.00 ÷ 4 = $15.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "TACO FIESTA",
+        "lineItems": [
+          {
+            "name": "Taco Platter (4x)",
+            "price": 32.0
+          },
+          {
+            "name": "Guacamole & Chips",
+            "price": 8.0
+          },
+          {
+            "name": "Margarita Pitcher",
+            "price": 10.0
+          }
+        ],
+        "subtotal": 50.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-07",
+    "topic": "tipsAndChecks",
+    "questionText": "How much is 15% tip on this brunch?",
+    "options": [
+      "$5.10",
+      "$4.50",
+      "$5.70",
+      "$4.95"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Find the subtotal: $34.00",
+      "Calculate 15%: $34.00 × 0.15 = $5.10"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "MORNING GLORY",
+        "lineItems": [
+          {
+            "name": "Pancake Stack",
+            "price": 12.0
+          },
+          {
+            "name": "Bacon (Side)",
+            "price": 5.0
+          },
+          {
+            "name": "Fresh Berries",
+            "price": 4.5
+          },
+          {
+            "name": "Coffee",
+            "price": 4.0
+          },
+          {
+            "name": "Mimosa",
+            "price": 8.5
+          }
+        ],
+        "subtotal": 34.0,
+        "tipPercentage": 15,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-08",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the total including a 20% tip?",
+    "options": [
+      "$30.00",
+      "$28.80",
+      "$31.20",
+      "$27.60"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $25.00",
+      "Calculate 20%: $25.00 × 0.20 = $5.00",
+      "Total: $25.00 + $5.00 = $30.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "NOODLE HOUSE",
+        "lineItems": [
+          {
+            "name": "Pho Bo (Large)",
+            "price": 14.0
+          },
+          {
+            "name": "Spring Rolls (4pc)",
+            "price": 7.0
+          },
+          {
+            "name": "Thai Iced Tea",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 25.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-09",
+    "topic": "tipsAndChecks",
+    "questionText": "You're splitting this check 2 ways. Each person leaves 18% tip on their share. How much does each pay total?",
+    "options": [
+      "$35.40",
+      "$33.04",
+      "$37.76",
+      "$30.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $60.00",
+      "Each person's share: $60.00 ÷ 2 = $30.00",
+      "18% tip on $30.00: $5.40",
+      "Each pays: $30.00 + $5.40 = $35.40"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "BLUE MOON DINER",
+        "lineItems": [
+          {
+            "name": "Double Cheeseburger",
+            "price": 15.0
+          },
+          {
+            "name": "Club Sandwich",
+            "price": 13.0
+          },
+          {
+            "name": "Onion Rings",
+            "price": 7.0
+          },
+          {
+            "name": "Milkshake (2x)",
+            "price": 12.0
+          },
+          {
+            "name": "Slice of Pie (2x)",
+            "price": 13.0
+          }
+        ],
+        "subtotal": 60.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-10",
+    "topic": "tipsAndChecks",
+    "questionText": "What's a 20% tip on this coffee run?",
+    "options": [
+      "$3.50",
+      "$4.10",
+      "$3.90",
+      "$4.50"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Find the subtotal: $17.50",
+      "Calculate 20%: $17.50 × 0.20 = $3.50"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "BEAN & BREW",
+        "lineItems": [
+          {
+            "name": "Oat Milk Latte",
+            "price": 6.0
+          },
+          {
+            "name": "Chai Tea",
+            "price": 5.0
+          },
+          {
+            "name": "Blueberry Muffin",
+            "price": 4.0
+          },
+          {
+            "name": "Croissant",
+            "price": 2.5
+          }
+        ],
+        "subtotal": 17.5,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-11",
+    "topic": "tipsAndChecks",
+    "questionText": "What's a 25% tip on this birthday dinner?",
+    "options": [
+      "$22.50",
+      "$18.00",
+      "$27.00",
+      "$20.25"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $90.00",
+      "Calculate 25%: $90.00 × 0.25 = $22.50"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "GOLDEN ORCHID",
+        "lineItems": [
+          {
+            "name": "Peking Duck (Half)",
+            "price": 32.0
+          },
+          {
+            "name": "Kung Pao Shrimp",
+            "price": 18.0
+          },
+          {
+            "name": "Fried Rice",
+            "price": 12.0
+          },
+          {
+            "name": "Dumplings (10pc)",
+            "price": 14.0
+          },
+          {
+            "name": "Jasmine Tea Pot",
+            "price": 6.0
+          },
+          {
+            "name": "Mango Pudding (2x)",
+            "price": 8.0
+          }
+        ],
+        "subtotal": 90.0,
+        "tipPercentage": 25,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-12",
+    "topic": "tipsAndChecks",
+    "questionText": "Your friend says the 15% tip should be $9.00. Is that correct?",
+    "options": [
+      "No, it should be $9.45",
+      "Yes, $9.00 is correct",
+      "No, it should be $8.55",
+      "No, it should be $10.50"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $63.00",
+      "Calculate 15%: $63.00 × 0.15 = $9.45",
+      "Your friend's estimate of $9.00 is $0.45 short"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "SAKURA SUSHI",
+        "lineItems": [
+          {
+            "name": "Spicy Tuna Roll",
+            "price": 14.0
+          },
+          {
+            "name": "Salmon Nigiri (4pc)",
+            "price": 16.0
+          },
+          {
+            "name": "Miso Soup (2x)",
+            "price": 7.0
+          },
+          {
+            "name": "Edamame",
+            "price": 6.0
+          },
+          {
+            "name": "Green Tea Ice Cream (2x)",
+            "price": 10.0
+          },
+          {
+            "name": "Hot Sake",
+            "price": 10.0
+          }
+        ],
+        "subtotal": 63.0,
+        "tipPercentage": 15,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-13",
+    "topic": "tipsAndChecks",
+    "questionText": "How much does each of 5 friends owe after adding a 20% tip?",
+    "options": [
+      "$18.00",
+      "$15.00",
+      "$21.00",
+      "$16.50"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $75.00",
+      "20% tip: $75.00 × 0.20 = $15.00",
+      "Total: $75.00 + $15.00 = $90.00",
+      "Per person: $90.00 ÷ 5 = $18.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "BACKYARD BBQ",
+        "lineItems": [
+          {
+            "name": "Pulled Pork Platter",
+            "price": 16.0
+          },
+          {
+            "name": "Brisket Sandwich (2x)",
+            "price": 28.0
+          },
+          {
+            "name": "Coleslaw (Large)",
+            "price": 6.0
+          },
+          {
+            "name": "Mac & Cheese (Large)",
+            "price": 8.0
+          },
+          {
+            "name": "Cornbread Basket",
+            "price": 5.0
+          },
+          {
+            "name": "Sweet Tea Pitcher",
+            "price": 12.0
+          }
+        ],
+        "subtotal": 75.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-14",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the difference between a 15% and 20% tip on this bill?",
+    "options": [
+      "$2.40",
+      "$3.00",
+      "$1.80",
+      "$2.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $48.00",
+      "15% tip: $48.00 × 0.15 = $7.20",
+      "20% tip: $48.00 × 0.20 = $9.60",
+      "Difference: $9.60 − $7.20 = $2.40"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "THE BREAKFAST CLUB",
+        "lineItems": [
+          {
+            "name": "Belgian Waffle",
+            "price": 14.0
+          },
+          {
+            "name": "Omelette (3 egg)",
+            "price": 13.0
+          },
+          {
+            "name": "Hash Browns",
+            "price": 5.0
+          },
+          {
+            "name": "Fresh Juice (2x)",
+            "price": 10.0
+          },
+          {
+            "name": "Coffee (2x)",
+            "price": 6.0
+          }
+        ],
+        "subtotal": 48.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-15",
+    "topic": "tipsAndChecks",
+    "questionText": "You want to leave exactly $100 total including tip. What tip percentage is that?",
+    "options": [
+      "25%",
+      "20%",
+      "22%",
+      "18%"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $80.00",
+      "Tip needed: $100.00 − $80.00 = $20.00",
+      "Tip percentage: $20.00 ÷ $80.00 = 0.25 = 25%"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "OCEAN BREEZE",
+        "lineItems": [
+          {
+            "name": "Grilled Sea Bass",
+            "price": 28.0
+          },
+          {
+            "name": "Crab Cakes (2pc)",
+            "price": 18.0
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 12.0
+          },
+          {
+            "name": "Sparkling Water",
+            "price": 4.0
+          },
+          {
+            "name": "Crème Brûlée",
+            "price": 10.0
+          },
+          {
+            "name": "Espresso",
+            "price": 4.0
+          },
+          {
+            "name": "Bread Service",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 80.0,
+        "tipPercentage": null,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-16",
+    "topic": "tipsAndChecks",
+    "questionText": "What's 18% tip on this takeout order?",
+    "options": [
+      "$5.40",
+      "$6.00",
+      "$4.80",
+      "$5.76"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $30.00",
+      "Calculate 18%: $30.00 × 0.18 = $5.40"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "WOK THIS WAY",
+        "lineItems": [
+          {
+            "name": "Orange Chicken",
+            "price": 13.0
+          },
+          {
+            "name": "Fried Rice",
+            "price": 8.0
+          },
+          {
+            "name": "Egg Drop Soup",
+            "price": 5.0
+          },
+          {
+            "name": "Spring Rolls (2pc)",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 30.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-17",
+    "topic": "tipsAndChecks",
+    "questionText": "Two couples split this bill equally. How much per couple before tip?",
+    "options": [
+      "$54.00",
+      "$48.00",
+      "$60.00",
+      "$52.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total bill: $108.00",
+      "Split between 2 couples: $108.00 ÷ 2 = $54.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "BELLA ITALIA",
+        "lineItems": [
+          {
+            "name": "Bruschetta",
+            "price": 12.0
+          },
+          {
+            "name": "Risotto al Funghi",
+            "price": 22.0
+          },
+          {
+            "name": "Osso Buco",
+            "price": 28.0
+          },
+          {
+            "name": "Panna Cotta (2x)",
+            "price": 16.0
+          },
+          {
+            "name": "Bottle of Chianti",
+            "price": 30.0
+          }
+        ],
+        "subtotal": 108.0,
+        "tipPercentage": null,
+        "total": 108.0
+      }
+    }
+  },
+  {
+    "id": "tip-18",
+    "topic": "tipsAndChecks",
+    "questionText": "The service was amazing. What's a 22% tip on this meal?",
+    "options": [
+      "$8.80",
+      "$9.90",
+      "$7.70",
+      "$10.12"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $40.00",
+      "Calculate 22%: $40.00 × 0.22 = $8.80"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "VERDE GARDEN",
+        "lineItems": [
+          {
+            "name": "Quinoa Bowl",
+            "price": 15.0
+          },
+          {
+            "name": "Avocado Wrap",
+            "price": 13.0
+          },
+          {
+            "name": "Kombucha",
+            "price": 6.0
+          },
+          {
+            "name": "Acai Bowl (Small)",
+            "price": 6.0
+          }
+        ],
+        "subtotal": 40.0,
+        "tipPercentage": 22,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-19",
+    "topic": "tipsAndChecks",
+    "questionText": "Your meal was comped (free). You tip 20% on the original total. How much tip?",
+    "options": [
+      "$11.00",
+      "$0.00",
+      "$8.80",
+      "$13.20"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original subtotal: $55.00",
+      "Even though the meal was free, tip is on the original amount",
+      "Calculate 20%: $55.00 × 0.20 = $11.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "CHEF'S TABLE",
+        "lineItems": [
+          {
+            "name": "Tasting Menu",
+            "price": 38.0
+          },
+          {
+            "name": "Wine Pairing (Glass)",
+            "price": 12.0
+          },
+          {
+            "name": "Sparkling Water",
+            "price": 5.0
+          }
+        ],
+        "subtotal": 55.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-20",
+    "topic": "tipsAndChecks",
+    "questionText": "You have a $10 coupon. What's 20% tip on the original total before the coupon?",
+    "options": [
+      "$13.00",
+      "$11.00",
+      "$12.00",
+      "$14.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original subtotal: $65.00",
+      "Tip should be on the pre-coupon amount",
+      "Calculate 20%: $65.00 × 0.20 = $13.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "PRIME STEAKHOUSE",
+        "lineItems": [
+          {
+            "name": "NY Strip Steak",
+            "price": 32.0
+          },
+          {
+            "name": "Baked Potato",
+            "price": 8.0
+          },
+          {
+            "name": "Creamed Spinach",
+            "price": 9.0
+          },
+          {
+            "name": "Glass of Cabernet",
+            "price": 12.0
+          },
+          {
+            "name": "Cheesecake Slice",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 65.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-21",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the total for 6 people splitting equally with 18% tip?",
+    "options": [
+      "$17.70",
+      "$15.00",
+      "$19.50",
+      "$16.20"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $90.00",
+      "18% tip: $90.00 × 0.18 = $16.20",
+      "Total: $90.00 + $16.20 = $106.20",
+      "Per person: $106.20 ÷ 6 = $17.70"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "DIM SUM PALACE",
+        "lineItems": [
+          {
+            "name": "Har Gow (2 baskets)",
+            "price": 16.0
+          },
+          {
+            "name": "Siu Mai (2 baskets)",
+            "price": 14.0
+          },
+          {
+            "name": "BBQ Pork Buns (2)",
+            "price": 12.0
+          },
+          {
+            "name": "Turnip Cake",
+            "price": 8.0
+          },
+          {
+            "name": "Egg Tarts (6pc)",
+            "price": 10.0
+          },
+          {
+            "name": "Congee (Large)",
+            "price": 12.0
+          },
+          {
+            "name": "Chinese Tea Pot",
+            "price": 6.0
+          },
+          {
+            "name": "Mango Sago",
+            "price": 12.0
+          }
+        ],
+        "subtotal": 90.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-22",
+    "topic": "tipsAndChecks",
+    "questionText": "You ordered delivery. The fee is $4.99 already included. What's 15% tip on the food only ($28.00)?",
+    "options": [
+      "$4.20",
+      "$4.95",
+      "$3.75",
+      "$5.10"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Food subtotal: $28.00 (don't tip on the delivery fee)",
+      "Calculate 15%: $28.00 × 0.15 = $4.20"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "SPEEDY BITES DELIVERY",
+        "lineItems": [
+          {
+            "name": "Pad Thai",
+            "price": 14.0
+          },
+          {
+            "name": "Tom Yum Soup",
+            "price": 8.0
+          },
+          {
+            "name": "Thai Iced Coffee",
+            "price": 6.0
+          },
+          {
+            "name": "Delivery Fee",
+            "price": 4.99
+          }
+        ],
+        "subtotal": 32.99,
+        "tipPercentage": 15,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-23",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the total bill including 20% tip on this date night?",
+    "options": [
+      "$108.00",
+      "$99.00",
+      "$112.00",
+      "$104.40"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $90.00",
+      "Calculate 20%: $90.00 × 0.20 = $18.00",
+      "Total: $90.00 + $18.00 = $108.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "MOONLIGHT BISTRO",
+        "lineItems": [
+          {
+            "name": "Burrata & Prosciutto",
+            "price": 16.0
+          },
+          {
+            "name": "Lobster Linguine",
+            "price": 28.0
+          },
+          {
+            "name": "Filet Mignon",
+            "price": 32.0
+          },
+          {
+            "name": "Bottle of Prosecco",
+            "price": 14.0
+          }
+        ],
+        "subtotal": 90.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-24",
+    "topic": "tipsAndChecks",
+    "questionText": "Quick math: What's roughly 20% tip on $73.00?",
+    "options": [
+      "$14.60",
+      "$13.00",
+      "$15.00",
+      "$12.80"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Exact calculation: $73.00 × 0.20 = $14.60",
+      "Quick trick: 10% = $7.30, double it = $14.60"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "THE RUSTIC TABLE",
+        "lineItems": [
+          {
+            "name": "Baby Back Ribs",
+            "price": 24.0
+          },
+          {
+            "name": "Smoked Wings",
+            "price": 15.0
+          },
+          {
+            "name": "Mac & Cheese",
+            "price": 9.0
+          },
+          {
+            "name": "Cornbread",
+            "price": 5.0
+          },
+          {
+            "name": "Craft Beer (2x)",
+            "price": 14.0
+          },
+          {
+            "name": "Pecan Pie",
+            "price": 6.0
+          }
+        ],
+        "subtotal": 73.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-25",
+    "topic": "tipsAndChecks",
+    "questionText": "3 friends order separately but split the tip. Total bill is $66.00, 18% tip. How much tip per person?",
+    "options": [
+      "$3.96",
+      "$3.60",
+      "$4.40",
+      "$4.20"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $66.00",
+      "18% tip: $66.00 × 0.18 = $11.88",
+      "Tip per person: $11.88 ÷ 3 = $3.96"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "FUSION BOWL",
+        "lineItems": [
+          {
+            "name": "Teriyaki Bowl",
+            "price": 16.0
+          },
+          {
+            "name": "Bibimbap",
+            "price": 18.0
+          },
+          {
+            "name": "Ramen (Tonkotsu)",
+            "price": 17.0
+          },
+          {
+            "name": "Gyoza (6pc)",
+            "price": 8.0
+          },
+          {
+            "name": "Green Tea (3x)",
+            "price": 7.0
+          }
+        ],
+        "subtotal": 66.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-26",
+    "topic": "tipsAndChecks",
+    "questionText": "The bartender made 4 cocktails at $14 each. What's 20% tip on the tab?",
+    "options": [
+      "$11.20",
+      "$10.00",
+      "$12.80",
+      "$9.60"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total tab: 4 × $14.00 = $56.00",
+      "Calculate 20%: $56.00 × 0.20 = $11.20"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "VELVET LOUNGE",
+        "lineItems": [
+          {
+            "name": "Old Fashioned",
+            "price": 14.0
+          },
+          {
+            "name": "Margarita",
+            "price": 14.0
+          },
+          {
+            "name": "Espresso Martini",
+            "price": 14.0
+          },
+          {
+            "name": "Moscow Mule",
+            "price": 14.0
+          }
+        ],
+        "subtotal": 56.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-27",
+    "topic": "tipsAndChecks",
+    "questionText": "Brunch for 2 with a 20% tip. How much per person?",
+    "options": [
+      "$25.20",
+      "$21.00",
+      "$28.00",
+      "$23.40"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $42.00",
+      "20% tip: $42.00 × 0.20 = $8.40",
+      "Total: $42.00 + $8.40 = $50.40",
+      "Per person: $50.40 ÷ 2 = $25.20"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "SUNDAY BRUNCH CO.",
+        "lineItems": [
+          {
+            "name": "Shakshuka",
+            "price": 15.0
+          },
+          {
+            "name": "Smoked Salmon Bagel",
+            "price": 14.0
+          },
+          {
+            "name": "Matcha Latte",
+            "price": 6.0
+          },
+          {
+            "name": "Fresh Squeezed OJ",
+            "price": 7.0
+          }
+        ],
+        "subtotal": 42.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-28",
+    "topic": "tipsAndChecks",
+    "questionText": "Your bill has a suggested 18% tip of $7.92. Is the math correct?",
+    "options": [
+      "Yes, that's correct",
+      "No, it should be $7.20",
+      "No, it should be $8.64",
+      "No, it should be $7.56"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $44.00",
+      "Calculate 18%: $44.00 × 0.18 = $7.92",
+      "The suggested tip is correct!"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "MAPLE STREET GRILL",
+        "lineItems": [
+          {
+            "name": "Turkey Club",
+            "price": 14.0
+          },
+          {
+            "name": "Tomato Soup",
+            "price": 7.0
+          },
+          {
+            "name": "Grilled Cheese",
+            "price": 11.0
+          },
+          {
+            "name": "Arnold Palmer (2x)",
+            "price": 8.0
+          },
+          {
+            "name": "Brownie Sundae",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 44.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-29",
+    "topic": "tipsAndChecks",
+    "questionText": "You want to round up the total to the nearest $5 after 20% tip. What do you pay?",
+    "options": [
+      "$40.00",
+      "$38.40",
+      "$45.00",
+      "$35.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $32.00",
+      "20% tip: $32.00 × 0.20 = $6.40",
+      "Total: $32.00 + $6.40 = $38.40",
+      "Rounded up to nearest $5: $40.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "PHO SAIGON",
+        "lineItems": [
+          {
+            "name": "Pho Dac Biet (Large)",
+            "price": 16.0
+          },
+          {
+            "name": "Vietnamese Coffee",
+            "price": 5.0
+          },
+          {
+            "name": "Banh Mi",
+            "price": 11.0
+          }
+        ],
+        "subtotal": 32.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-30",
+    "topic": "tipsAndChecks",
+    "questionText": "You ordered for the office — 8 people. What's each person's share including 15% tip?",
+    "options": [
+      "$11.50",
+      "$10.00",
+      "$12.75",
+      "$13.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $80.00",
+      "15% tip: $80.00 × 0.15 = $12.00",
+      "Total: $80.00 + $12.00 = $92.00",
+      "Per person: $92.00 ÷ 8 = $11.50"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "SANDWICH FACTORY",
+        "lineItems": [
+          {
+            "name": "Turkey Sub (3x)",
+            "price": 30.0
+          },
+          {
+            "name": "Italian Hero (3x)",
+            "price": 33.0
+          },
+          {
+            "name": "Veggie Wrap (2x)",
+            "price": 17.0
+          }
+        ],
+        "subtotal": 80.0,
+        "tipPercentage": 15,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-31",
+    "topic": "tipsAndChecks",
+    "questionText": "What's 20% tip on this family dinner?",
+    "options": [
+      "$19.00",
+      "$17.40",
+      "$20.80",
+      "$18.20"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $95.00",
+      "Calculate 20%: $95.00 × 0.20 = $19.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "FIRESIDE GRILL",
+        "lineItems": [
+          {
+            "name": "Ribeye Steak",
+            "price": 34.0
+          },
+          {
+            "name": "Grilled Salmon",
+            "price": 26.0
+          },
+          {
+            "name": "Chicken Tenders (Kids)",
+            "price": 10.0
+          },
+          {
+            "name": "Mac & Cheese (Kids)",
+            "price": 8.0
+          },
+          {
+            "name": "House Salad",
+            "price": 9.0
+          },
+          {
+            "name": "Lemonade Pitcher",
+            "price": 8.0
+          }
+        ],
+        "subtotal": 95.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-32",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the total including an 18% tip?",
+    "options": [
+      "$47.20",
+      "$44.80",
+      "$49.60",
+      "$45.50"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $40.00",
+      "18% tip: $40.00 × 0.18 = $7.20",
+      "Total: $40.00 + $7.20 = $47.20"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "CURRY PALACE",
+        "lineItems": [
+          {
+            "name": "Butter Chicken",
+            "price": 16.0
+          },
+          {
+            "name": "Garlic Naan (2)",
+            "price": 6.0
+          },
+          {
+            "name": "Samosas (4pc)",
+            "price": 8.0
+          },
+          {
+            "name": "Mango Lassi (2x)",
+            "price": 10.0
+          }
+        ],
+        "subtotal": 40.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-33",
+    "topic": "tipsAndChecks",
+    "questionText": "4 coworkers split this lunch equally with 15% tip. How much per person?",
+    "options": [
+      "$16.10",
+      "$14.00",
+      "$17.25",
+      "$15.50"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $56.00",
+      "15% tip: $56.00 × 0.15 = $8.40",
+      "Total: $56.00 + $8.40 = $64.40",
+      "Per person: $64.40 ÷ 4 = $16.10"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "DOWNTOWN DELI",
+        "lineItems": [
+          {
+            "name": "Reuben Sandwich",
+            "price": 14.0
+          },
+          {
+            "name": "BLT",
+            "price": 12.0
+          },
+          {
+            "name": "Chicken Wrap",
+            "price": 13.0
+          },
+          {
+            "name": "Veggie Sub",
+            "price": 11.0
+          },
+          {
+            "name": "Sodas (4x)",
+            "price": 6.0
+          }
+        ],
+        "subtotal": 56.0,
+        "tipPercentage": 15,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-34",
+    "topic": "tipsAndChecks",
+    "questionText": "What's a generous 25% tip on this sushi dinner?",
+    "options": [
+      "$17.50",
+      "$14.00",
+      "$19.60",
+      "$16.10"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $70.00",
+      "Calculate 25%: $70.00 × 0.25 = $17.50"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "TOKYO GARDEN",
+        "lineItems": [
+          {
+            "name": "Dragon Roll",
+            "price": 18.0
+          },
+          {
+            "name": "Rainbow Roll",
+            "price": 16.0
+          },
+          {
+            "name": "Tempura Udon",
+            "price": 14.0
+          },
+          {
+            "name": "Edamame",
+            "price": 5.0
+          },
+          {
+            "name": "Sake Carafe",
+            "price": 12.0
+          },
+          {
+            "name": "Mochi Ice Cream (2pc)",
+            "price": 5.0
+          }
+        ],
+        "subtotal": 70.0,
+        "tipPercentage": 25,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-35",
+    "topic": "tipsAndChecks",
+    "questionText": "The receipt shows a suggested 20% tip of $8.40. Is that right?",
+    "options": [
+      "No, it should be $8.80",
+      "Yes, $8.40 is correct",
+      "No, it should be $7.92",
+      "No, it should be $9.20"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $44.00",
+      "Calculate 20%: $44.00 × 0.20 = $8.80",
+      "The suggested tip of $8.40 is $0.40 short"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "LAKEVIEW CAFE",
+        "lineItems": [
+          {
+            "name": "Fish & Chips",
+            "price": 16.0
+          },
+          {
+            "name": "Clam Chowder",
+            "price": 9.0
+          },
+          {
+            "name": "Coleslaw",
+            "price": 4.0
+          },
+          {
+            "name": "Iced Tea (2x)",
+            "price": 7.0
+          },
+          {
+            "name": "Key Lime Pie",
+            "price": 8.0
+          }
+        ],
+        "subtotal": 44.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-36",
+    "topic": "tipsAndChecks",
+    "questionText": "3 friends split this check with 20% tip. How much per person?",
+    "options": [
+      "$21.60",
+      "$18.00",
+      "$24.00",
+      "$19.80"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $54.00",
+      "20% tip: $54.00 × 0.20 = $10.80",
+      "Total: $54.00 + $10.80 = $64.80",
+      "Per person: $64.80 ÷ 3 = $21.60"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "TAQUERIA SOL",
+        "lineItems": [
+          {
+            "name": "Carne Asada Burrito",
+            "price": 14.0
+          },
+          {
+            "name": "Fish Tacos (3pc)",
+            "price": 15.0
+          },
+          {
+            "name": "Enchiladas Verdes",
+            "price": 13.0
+          },
+          {
+            "name": "Horchata (3x)",
+            "price": 12.0
+          }
+        ],
+        "subtotal": 54.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-37",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the difference between 18% and 25% tip on this bill?",
+    "options": [
+      "$4.90",
+      "$3.50",
+      "$5.60",
+      "$4.20"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $70.00",
+      "18% tip: $70.00 × 0.18 = $12.60",
+      "25% tip: $70.00 × 0.25 = $17.50",
+      "Difference: $17.50 − $12.60 = $4.90"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "HARVEST KITCHEN",
+        "lineItems": [
+          {
+            "name": "Roast Chicken",
+            "price": 22.0
+          },
+          {
+            "name": "Mushroom Risotto",
+            "price": 18.0
+          },
+          {
+            "name": "Bruschetta",
+            "price": 10.0
+          },
+          {
+            "name": "House Wine (2x)",
+            "price": 16.0
+          },
+          {
+            "name": "Tiramisu",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 70.0,
+        "tipPercentage": 25,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-38",
+    "topic": "tipsAndChecks",
+    "questionText": "How much is 15% tip on this breakfast?",
+    "options": [
+      "$3.90",
+      "$3.60",
+      "$4.20",
+      "$3.45"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $26.00",
+      "Calculate 15%: $26.00 × 0.15 = $3.90"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "SUNRISE DINER",
+        "lineItems": [
+          {
+            "name": "Western Omelette",
+            "price": 13.0
+          },
+          {
+            "name": "Toast & Jam",
+            "price": 3.0
+          },
+          {
+            "name": "Home Fries",
+            "price": 4.0
+          },
+          {
+            "name": "Coffee (2x)",
+            "price": 6.0
+          }
+        ],
+        "subtotal": 26.0,
+        "tipPercentage": 15,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-39",
+    "topic": "tipsAndChecks",
+    "questionText": "What's the total including 20% tip on this pizza order?",
+    "options": [
+      "$54.00",
+      "$49.50",
+      "$56.40",
+      "$51.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $45.00",
+      "20% tip: $45.00 × 0.20 = $9.00",
+      "Total: $45.00 + $9.00 = $54.00"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "BRICK OVEN PIZZA",
+        "lineItems": [
+          {
+            "name": "Pepperoni Pizza (Large)",
+            "price": 22.0
+          },
+          {
+            "name": "Garlic Knots (12pc)",
+            "price": 8.0
+          },
+          {
+            "name": "Buffalo Wings (8pc)",
+            "price": 12.0
+          },
+          {
+            "name": "Root Beer (2x)",
+            "price": 3.0
+          }
+        ],
+        "subtotal": 45.0,
+        "tipPercentage": 20,
+        "total": null
+      }
+    }
+  },
+  {
+    "id": "tip-40",
+    "topic": "tipsAndChecks",
+    "questionText": "You're splitting this equally for 2 people. How much per person with 18% tip?",
+    "options": [
+      "$29.50",
+      "$25.00",
+      "$32.00",
+      "$27.80"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $50.00",
+      "18% tip: $50.00 × 0.18 = $9.00",
+      "Total: $50.00 + $9.00 = $59.00",
+      "Per person: $59.00 ÷ 2 = $29.50"
+    ],
+    "scenarioData": {
+      "receipt": {
+        "restaurantName": "GARDEN TERRACE",
+        "lineItems": [
+          {
+            "name": "Grilled Shrimp Pasta",
+            "price": 19.0
+          },
+          {
+            "name": "Margherita Flatbread",
+            "price": 14.0
+          },
+          {
+            "name": "Side Caesar Salad",
+            "price": 7.0
+          },
+          {
+            "name": "Sparkling Water (2x)",
+            "price": 6.0
+          },
+          {
+            "name": "Cannoli",
+            "price": 4.0
+          }
+        ],
+        "subtotal": 50.0,
+        "tipPercentage": 18,
+        "total": null
+      }
+    }
+  }
+]

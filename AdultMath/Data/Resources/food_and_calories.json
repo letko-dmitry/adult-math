@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "cal-01",
+    "topic": "foodAndCalories",
+    "questionText": "What are the total calories in this lunch?",
+    "options": [
+      "555 cal",
+      "620 cal",
+      "490 cal",
+      "580 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Chicken: 165 cal",
+      "Rice: 215 cal",
+      "Broccoli: 55 cal",
+      "Dressing: 120 cal",
+      "Total: 165 + 215 + 55 + 120 = 555 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Lunch Plate",
+        "ingredients": [
+          {
+            "name": "Grilled Chicken Breast",
+            "calories": 165
+          },
+          {
+            "name": "Brown Rice (1 cup)",
+            "calories": 215
+          },
+          {
+            "name": "Steamed Broccoli",
+            "calories": 55
+          },
+          {
+            "name": "Olive Oil Dressing",
+            "calories": 120
+          }
+        ],
+        "totalCalories": 555,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-02",
+    "topic": "foodAndCalories",
+    "questionText": "Is this meal under the 600-calorie limit?",
+    "options": [
+      "Yes, it's 526 cal",
+      "No, it's 635 cal",
+      "Yes, it's 490 cal",
+      "No, it's 610 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Oatmeal: 150 cal",
+      "Banana: 105 cal",
+      "Almonds: 165 cal",
+      "Blueberries: 42 cal",
+      "Honey: 64 cal",
+      "Total: 526 cal ✓ Under 600"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Breakfast Bowl",
+        "ingredients": [
+          {
+            "name": "Oatmeal (1 cup)",
+            "calories": 150
+          },
+          {
+            "name": "Banana",
+            "calories": 105
+          },
+          {
+            "name": "Almonds (1 oz)",
+            "calories": 165
+          },
+          {
+            "name": "Blueberries (½ cup)",
+            "calories": 42
+          },
+          {
+            "name": "Honey (1 tbsp)",
+            "calories": 64
+          }
+        ],
+        "totalCalories": 526,
+        "calorieLimit": 600
+      }
+    }
+  },
+  {
+    "id": "cal-03",
+    "topic": "foodAndCalories",
+    "questionText": "If you skip the avocado, how many calories is this meal?",
+    "options": [
+      "455 cal",
+      "520 cal",
+      "390 cal",
+      "480 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total with avocado: 695 cal",
+      "Avocado: 240 cal",
+      "Without avocado: 695 − 240 = 455 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Poke Bowl",
+        "ingredients": [
+          {
+            "name": "Sushi Rice (1 cup)",
+            "calories": 240
+          },
+          {
+            "name": "Raw Tuna (4 oz)",
+            "calories": 120
+          },
+          {
+            "name": "Avocado (½)",
+            "calories": 240
+          },
+          {
+            "name": "Edamame",
+            "calories": 60
+          },
+          {
+            "name": "Soy Sauce",
+            "calories": 10
+          },
+          {
+            "name": "Sesame Seeds",
+            "calories": 25
+          }
+        ],
+        "totalCalories": 695,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-04",
+    "topic": "foodAndCalories",
+    "questionText": "What are the total calories in this snack plate?",
+    "options": [
+      "445 cal",
+      "510 cal",
+      "380 cal",
+      "465 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Apple: 95 cal",
+      "Peanut Butter: 190 cal",
+      "Cheese: 110 cal",
+      "Crackers: 50 cal",
+      "Total: 95 + 190 + 110 + 50 = 445 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Afternoon Snack",
+        "ingredients": [
+          {
+            "name": "Apple (medium)",
+            "calories": 95
+          },
+          {
+            "name": "Peanut Butter (2 tbsp)",
+            "calories": 190
+          },
+          {
+            "name": "Cheddar Cheese (1 oz)",
+            "calories": 110
+          },
+          {
+            "name": "Whole Wheat Crackers (6pc)",
+            "calories": 50
+          }
+        ],
+        "totalCalories": 445,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-05",
+    "topic": "foodAndCalories",
+    "questionText": "How many calories would you save by replacing the fries with a side salad (45 cal)?",
+    "options": [
+      "275 cal",
+      "320 cal",
+      "230 cal",
+      "190 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Fries: 320 cal",
+      "Side Salad: 45 cal",
+      "Savings: 320 − 45 = 275 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Burger Combo",
+        "ingredients": [
+          {
+            "name": "Cheeseburger",
+            "calories": 350
+          },
+          {
+            "name": "French Fries (medium)",
+            "calories": 320
+          },
+          {
+            "name": "Ketchup (2 packets)",
+            "calories": 20
+          },
+          {
+            "name": "Cola (medium)",
+            "calories": 210
+          }
+        ],
+        "totalCalories": 900,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-06",
+    "topic": "foodAndCalories",
+    "questionText": "Is this dinner under the 700-calorie limit?",
+    "options": [
+      "No, it's 720 cal",
+      "Yes, it's 680 cal",
+      "No, it's 750 cal",
+      "Yes, it's 650 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Pasta: 350 cal",
+      "Sauce: 70 cal",
+      "Meatballs: 240 cal",
+      "Parmesan: 20 cal",
+      "Bread: 40 cal",
+      "Total: 720 cal ✗ Over 700"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Pasta Dinner",
+        "ingredients": [
+          {
+            "name": "Spaghetti (2 cups)",
+            "calories": 350
+          },
+          {
+            "name": "Marinara Sauce",
+            "calories": 70
+          },
+          {
+            "name": "Meatballs (3)",
+            "calories": 240
+          },
+          {
+            "name": "Parmesan (1 tbsp)",
+            "calories": 20
+          },
+          {
+            "name": "Garlic Bread (1 slice)",
+            "calories": 40
+          }
+        ],
+        "totalCalories": 720,
+        "calorieLimit": 700
+      }
+    }
+  },
+  {
+    "id": "cal-07",
+    "topic": "foodAndCalories",
+    "questionText": "What are the total calories in this smoothie?",
+    "options": [
+      "375 cal",
+      "420 cal",
+      "330 cal",
+      "395 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Banana: 105 cal",
+      "Strawberries: 50 cal",
+      "Greek Yogurt: 130 cal",
+      "Honey: 60 cal",
+      "Almond Milk: 30 cal",
+      "Total: 375 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Berry Smoothie",
+        "ingredients": [
+          {
+            "name": "Banana",
+            "calories": 105
+          },
+          {
+            "name": "Strawberries (1 cup)",
+            "calories": 50
+          },
+          {
+            "name": "Greek Yogurt (¾ cup)",
+            "calories": 130
+          },
+          {
+            "name": "Honey (1 tbsp)",
+            "calories": 60
+          },
+          {
+            "name": "Almond Milk (½ cup)",
+            "calories": 30
+          }
+        ],
+        "totalCalories": 375,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-08",
+    "topic": "foodAndCalories",
+    "questionText": "If you add a cookie (280 cal) to this order, what's the new total?",
+    "options": [
+      "690 cal",
+      "730 cal",
+      "650 cal",
+      "710 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Current total: 410 cal",
+      "Cookie: 280 cal",
+      "New total: 410 + 280 = 690 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Coffee & Snack",
+        "ingredients": [
+          {
+            "name": "Caffe Latte (large)",
+            "calories": 190
+          },
+          {
+            "name": "Banana Bread Slice",
+            "calories": 220
+          }
+        ],
+        "totalCalories": 410,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-09",
+    "topic": "foodAndCalories",
+    "questionText": "Which has fewer calories — this salad or a 500-cal sandwich?",
+    "options": [
+      "The salad (475 cal)",
+      "The sandwich (500 cal)",
+      "They're equal",
+      "Can't tell"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Greens: 15 cal",
+      "Shrimp: 100 cal",
+      "Feta: 75 cal",
+      "Croutons: 45 cal",
+      "Dressing: 180 cal",
+      "Tomatoes: 25 cal",
+      "Other: 35 cal",
+      "Salad total: 475 cal < 500 cal sandwich"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Shrimp Caesar Salad",
+        "ingredients": [
+          {
+            "name": "Mixed Greens",
+            "calories": 15
+          },
+          {
+            "name": "Grilled Shrimp (6pc)",
+            "calories": 100
+          },
+          {
+            "name": "Feta Cheese",
+            "calories": 75
+          },
+          {
+            "name": "Croutons",
+            "calories": 45
+          },
+          {
+            "name": "Caesar Dressing",
+            "calories": 180
+          },
+          {
+            "name": "Cherry Tomatoes",
+            "calories": 25
+          },
+          {
+            "name": "Cucumber & Onion",
+            "calories": 15
+          },
+          {
+            "name": "Olive Oil Drizzle",
+            "calories": 20
+          }
+        ],
+        "totalCalories": 475,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-10",
+    "topic": "foodAndCalories",
+    "questionText": "What are the total calories in this breakfast?",
+    "options": [
+      "510 cal",
+      "465 cal",
+      "555 cal",
+      "490 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Eggs: 180 cal",
+      "Toast: 130 cal",
+      "Butter: 100 cal",
+      "Orange Juice: 100 cal",
+      "Total: 510 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Classic Breakfast",
+        "ingredients": [
+          {
+            "name": "Scrambled Eggs (2)",
+            "calories": 180
+          },
+          {
+            "name": "Whole Wheat Toast (2)",
+            "calories": 130
+          },
+          {
+            "name": "Butter (1 tbsp)",
+            "calories": 100
+          },
+          {
+            "name": "Orange Juice (8 oz)",
+            "calories": 100
+          }
+        ],
+        "totalCalories": 510,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-11",
+    "topic": "foodAndCalories",
+    "questionText": "You're planning meals for the day. After this breakfast, how many calories are left for a 2000-cal day?",
+    "options": [
+      "1560 cal",
+      "1620 cal",
+      "1500 cal",
+      "1480 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Yogurt: 120 cal",
+      "Granola: 210 cal",
+      "Strawberries: 50 cal",
+      "Orange Juice: 60 cal",
+      "Breakfast total: 440 cal",
+      "Remaining: 2000 − 440 = 1560 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Morning Parfait",
+        "ingredients": [
+          {
+            "name": "Greek Yogurt (1 cup)",
+            "calories": 120
+          },
+          {
+            "name": "Granola (½ cup)",
+            "calories": 210
+          },
+          {
+            "name": "Strawberries (½ cup)",
+            "calories": 50
+          },
+          {
+            "name": "Orange Juice (4 oz)",
+            "calories": 60
+          }
+        ],
+        "totalCalories": 440,
+        "calorieLimit": 2000
+      }
+    }
+  },
+  {
+    "id": "cal-12",
+    "topic": "foodAndCalories",
+    "questionText": "Which single item has the most calories in this meal?",
+    "options": [
+      "Ranch Dressing (210 cal)",
+      "Fried Chicken (180 cal)",
+      "Corn on the Cob (155 cal)",
+      "Coleslaw (150 cal)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Fried Chicken: 180 cal",
+      "Corn: 155 cal",
+      "Coleslaw: 150 cal",
+      "Ranch Dressing: 210 cal",
+      "The dressing is the highest-calorie item!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Country Plate",
+        "ingredients": [
+          {
+            "name": "Fried Chicken Thigh",
+            "calories": 180
+          },
+          {
+            "name": "Corn on the Cob",
+            "calories": 155
+          },
+          {
+            "name": "Coleslaw",
+            "calories": 150
+          },
+          {
+            "name": "Ranch Dressing",
+            "calories": 210
+          },
+          {
+            "name": "Dinner Roll",
+            "calories": 80
+          }
+        ],
+        "totalCalories": 775,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-13",
+    "topic": "foodAndCalories",
+    "questionText": "You eat half of this pizza. How many calories is that?",
+    "options": [
+      "540 cal",
+      "480 cal",
+      "600 cal",
+      "510 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Full pizza total: 1080 cal",
+      "Half: 1080 ÷ 2 = 540 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Personal Pizza (8 slices)",
+        "ingredients": [
+          {
+            "name": "Pizza Dough",
+            "calories": 400
+          },
+          {
+            "name": "Mozzarella",
+            "calories": 320
+          },
+          {
+            "name": "Tomato Sauce",
+            "calories": 60
+          },
+          {
+            "name": "Pepperoni",
+            "calories": 210
+          },
+          {
+            "name": "Olive Oil",
+            "calories": 90
+          }
+        ],
+        "totalCalories": 1080,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-14",
+    "topic": "foodAndCalories",
+    "questionText": "You double the protein powder. What's the new total?",
+    "options": [
+      "430 cal",
+      "380 cal",
+      "460 cal",
+      "400 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original total: 310 cal",
+      "Original protein powder: 120 cal",
+      "Doubled protein powder: 240 cal",
+      "New total: 310 − 120 + 240 = 430 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Protein Shake",
+        "ingredients": [
+          {
+            "name": "Protein Powder (1 scoop)",
+            "calories": 120
+          },
+          {
+            "name": "Banana (½)",
+            "calories": 53
+          },
+          {
+            "name": "Peanut Butter (1 tbsp)",
+            "calories": 95
+          },
+          {
+            "name": "Oat Milk (1 cup)",
+            "calories": 42
+          }
+        ],
+        "totalCalories": 310,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-15",
+    "topic": "foodAndCalories",
+    "questionText": "How many calories per taco if you eat all 3?",
+    "options": [
+      "215 cal each",
+      "195 cal each",
+      "240 cal each",
+      "180 cal each"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total: 645 cal",
+      "Per taco: 645 ÷ 3 = 215 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Taco Plate (3 Tacos)",
+        "ingredients": [
+          {
+            "name": "Flour Tortillas (3)",
+            "calories": 315
+          },
+          {
+            "name": "Grilled Chicken",
+            "calories": 150
+          },
+          {
+            "name": "Pico de Gallo",
+            "calories": 20
+          },
+          {
+            "name": "Sour Cream",
+            "calories": 60
+          },
+          {
+            "name": "Cheese",
+            "calories": 100
+          }
+        ],
+        "totalCalories": 645,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-16",
+    "topic": "foodAndCalories",
+    "questionText": "Is this snack under 200 calories?",
+    "options": [
+      "No, it's 235 cal",
+      "Yes, it's 180 cal",
+      "No, it's 260 cal",
+      "Yes, it's 195 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Hummus: 70 cal",
+      "Carrots: 35 cal",
+      "Pita Chips: 130 cal",
+      "Total: 235 cal ✗ Over 200"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Hummus Snack",
+        "ingredients": [
+          {
+            "name": "Hummus (¼ cup)",
+            "calories": 70
+          },
+          {
+            "name": "Baby Carrots (10)",
+            "calories": 35
+          },
+          {
+            "name": "Pita Chips (1 oz)",
+            "calories": 130
+          }
+        ],
+        "totalCalories": 235,
+        "calorieLimit": 200
+      }
+    }
+  },
+  {
+    "id": "cal-17",
+    "topic": "foodAndCalories",
+    "questionText": "Replacing regular soda (210 cal) with water saves how many calories over 5 days?",
+    "options": [
+      "1050 cal",
+      "840 cal",
+      "1260 cal",
+      "950 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "One soda: 210 cal",
+      "Over 5 days: 210 × 5 = 1050 cal saved",
+      "That's almost half a pound of body weight!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Lunch Combo",
+        "ingredients": [
+          {
+            "name": "Grilled Wrap",
+            "calories": 380
+          },
+          {
+            "name": "Side Salad",
+            "calories": 45
+          },
+          {
+            "name": "Regular Soda",
+            "calories": 210
+          },
+          {
+            "name": "Apple",
+            "calories": 95
+          }
+        ],
+        "totalCalories": 730,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-18",
+    "topic": "foodAndCalories",
+    "questionText": "You ate ⅓ of this sharing platter. How many calories?",
+    "options": [
+      "290 cal",
+      "260 cal",
+      "320 cal",
+      "310 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total platter: 870 cal",
+      "Your share (⅓): 870 ÷ 3 = 290 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Sharing Platter",
+        "ingredients": [
+          {
+            "name": "Chicken Wings (12pc)",
+            "calories": 420
+          },
+          {
+            "name": "Mozzarella Sticks (6pc)",
+            "calories": 240
+          },
+          {
+            "name": "Celery & Ranch",
+            "calories": 110
+          },
+          {
+            "name": "Garlic Bread (4pc)",
+            "calories": 100
+          }
+        ],
+        "totalCalories": 870,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-19",
+    "topic": "foodAndCalories",
+    "questionText": "What's the calorie difference between this bowl and a 400-cal sandwich?",
+    "options": [
+      "185 cal more",
+      "150 cal more",
+      "210 cal more",
+      "It's less"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Rice: 215 cal",
+      "Black beans: 115 cal",
+      "Chicken: 130 cal",
+      "Salsa: 20 cal",
+      "Cheese: 55 cal",
+      "Guacamole: 50 cal",
+      "Total: 585 cal",
+      "Difference: 585 − 400 = 185 more calories"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Burrito Bowl",
+        "ingredients": [
+          {
+            "name": "Cilantro Rice",
+            "calories": 215
+          },
+          {
+            "name": "Black Beans",
+            "calories": 115
+          },
+          {
+            "name": "Chicken",
+            "calories": 130
+          },
+          {
+            "name": "Pico de Gallo",
+            "calories": 20
+          },
+          {
+            "name": "Shredded Cheese",
+            "calories": 55
+          },
+          {
+            "name": "Guacamole",
+            "calories": 50
+          }
+        ],
+        "totalCalories": 585,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-20",
+    "topic": "foodAndCalories",
+    "questionText": "Two of these coffees a day for a week. How many total calories?",
+    "options": [
+      "2380 cal",
+      "1960 cal",
+      "2660 cal",
+      "2100 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "One coffee: 170 cal",
+      "Two per day: 170 × 2 = 340 cal",
+      "Over 7 days: 340 × 7 = 2380 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Caramel Frappuccino",
+        "ingredients": [
+          {
+            "name": "Coffee Base",
+            "calories": 5
+          },
+          {
+            "name": "Whole Milk",
+            "calories": 75
+          },
+          {
+            "name": "Caramel Syrup",
+            "calories": 50
+          },
+          {
+            "name": "Whipped Cream",
+            "calories": 40
+          }
+        ],
+        "totalCalories": 170,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-21",
+    "topic": "foodAndCalories",
+    "questionText": "If you swap whole milk (150 cal) for almond milk (30 cal) in this, how many calories total?",
+    "options": [
+      "255 cal",
+      "285 cal",
+      "225 cal",
+      "300 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original total: 375 cal",
+      "Remove whole milk: 375 − 150 = 225 cal",
+      "Add almond milk: 225 + 30 = 255 cal",
+      "You save 120 cal!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Morning Cereal",
+        "ingredients": [
+          {
+            "name": "Bran Flakes (1 cup)",
+            "calories": 120
+          },
+          {
+            "name": "Whole Milk (1 cup)",
+            "calories": 150
+          },
+          {
+            "name": "Banana (½)",
+            "calories": 53
+          },
+          {
+            "name": "Brown Sugar (1 tsp)",
+            "calories": 17
+          },
+          {
+            "name": "Walnuts (5 halves)",
+            "calories": 35
+          }
+        ],
+        "totalCalories": 375,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-22",
+    "topic": "foodAndCalories",
+    "questionText": "How far under the 500-calorie limit is this meal?",
+    "options": [
+      "105 cal under",
+      "85 cal under",
+      "It's over the limit",
+      "55 cal under"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Salmon: 200 cal",
+      "Asparagus: 40 cal",
+      "Quinoa: 110 cal",
+      "Lemon Butter: 45 cal",
+      "Total: 395 cal",
+      "Under limit by: 500 − 395 = 105 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Light Dinner",
+        "ingredients": [
+          {
+            "name": "Baked Salmon (4 oz)",
+            "calories": 200
+          },
+          {
+            "name": "Roasted Asparagus",
+            "calories": 40
+          },
+          {
+            "name": "Quinoa (½ cup)",
+            "calories": 110
+          },
+          {
+            "name": "Lemon Butter Sauce",
+            "calories": 45
+          }
+        ],
+        "totalCalories": 395,
+        "calorieLimit": 500
+      }
+    }
+  },
+  {
+    "id": "cal-23",
+    "topic": "foodAndCalories",
+    "questionText": "This trail mix bag says 3 servings. What's the whole bag?",
+    "options": [
+      "510 cal",
+      "450 cal",
+      "570 cal",
+      "490 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "One serving: 170 cal",
+      "Whole bag (3 servings): 170 × 3 = 510 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Trail Mix (per serving)",
+        "ingredients": [
+          {
+            "name": "Mixed Nuts",
+            "calories": 85
+          },
+          {
+            "name": "Raisins",
+            "calories": 45
+          },
+          {
+            "name": "Chocolate Chips",
+            "calories": 30
+          },
+          {
+            "name": "Coconut Flakes",
+            "calories": 10
+          }
+        ],
+        "totalCalories": 170,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-24",
+    "topic": "foodAndCalories",
+    "questionText": "What percentage of this meal's calories comes from the dressing?",
+    "options": [
+      "About 40%",
+      "About 25%",
+      "About 55%",
+      "About 30%"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total: 350 cal",
+      "Dressing: 140 cal",
+      "Percentage: 140 ÷ 350 = 0.40 = 40%",
+      "The dressing is almost half the calories!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Garden Salad",
+        "ingredients": [
+          {
+            "name": "Romaine Lettuce",
+            "calories": 10
+          },
+          {
+            "name": "Tomatoes",
+            "calories": 20
+          },
+          {
+            "name": "Cucumber",
+            "calories": 10
+          },
+          {
+            "name": "Grilled Chicken (3 oz)",
+            "calories": 120
+          },
+          {
+            "name": "Croutons",
+            "calories": 50
+          },
+          {
+            "name": "Ranch Dressing (2 tbsp)",
+            "calories": 140
+          }
+        ],
+        "totalCalories": 350,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-25",
+    "topic": "foodAndCalories",
+    "questionText": "You meal-prep 5 of these for the work week. Total calories for all 5?",
+    "options": [
+      "2250 cal",
+      "2100 cal",
+      "2400 cal",
+      "2000 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "One container: 450 cal",
+      "Five containers: 450 × 5 = 2250 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Meal Prep Container",
+        "ingredients": [
+          {
+            "name": "Ground Turkey",
+            "calories": 170
+          },
+          {
+            "name": "Sweet Potato",
+            "calories": 115
+          },
+          {
+            "name": "Green Beans",
+            "calories": 35
+          },
+          {
+            "name": "Brown Rice (½ cup)",
+            "calories": 108
+          },
+          {
+            "name": "Teriyaki Sauce",
+            "calories": 22
+          }
+        ],
+        "totalCalories": 450,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-26",
+    "topic": "foodAndCalories",
+    "questionText": "How many of these energy bars can you eat and stay under 600 cal?",
+    "options": [
+      "2 bars (460 cal)",
+      "3 bars (690 cal)",
+      "1 bar (230 cal)",
+      "4 bars (920 cal)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "One bar: 230 cal",
+      "2 bars: 460 cal ✓ Under 600",
+      "3 bars: 690 cal ✗ Over 600"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Energy Bar",
+        "ingredients": [
+          {
+            "name": "Oats",
+            "calories": 80
+          },
+          {
+            "name": "Dark Chocolate",
+            "calories": 60
+          },
+          {
+            "name": "Almond Butter",
+            "calories": 50
+          },
+          {
+            "name": "Dried Cranberries",
+            "calories": 25
+          },
+          {
+            "name": "Honey",
+            "calories": 15
+          }
+        ],
+        "totalCalories": 230,
+        "calorieLimit": 600
+      }
+    }
+  },
+  {
+    "id": "cal-27",
+    "topic": "foodAndCalories",
+    "questionText": "Switching from a large (320 cal) to a small fry (160 cal) — what's your new meal total?",
+    "options": [
+      "630 cal",
+      "680 cal",
+      "590 cal",
+      "710 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original total: 790 cal",
+      "Remove large fries: 790 − 320 = 470 cal",
+      "Add small fries: 470 + 160 = 630 cal",
+      "You save 160 cal!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Fast Food Meal",
+        "ingredients": [
+          {
+            "name": "Chicken Sandwich",
+            "calories": 380
+          },
+          {
+            "name": "Large Fries",
+            "calories": 320
+          },
+          {
+            "name": "Sweet Tea",
+            "calories": 90
+          }
+        ],
+        "totalCalories": 790,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-28",
+    "topic": "foodAndCalories",
+    "questionText": "Breakfast + this lunch = how many calories so far today?",
+    "options": [
+      "965 cal",
+      "1020 cal",
+      "910 cal",
+      "1050 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "This lunch: 480 cal",
+      "Assume breakfast was 485 cal (shown above)",
+      "Total so far: 485 + 480 = 965 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Lunch (Breakfast was 485 cal)",
+        "ingredients": [
+          {
+            "name": "Turkey Sandwich",
+            "calories": 310
+          },
+          {
+            "name": "Apple",
+            "calories": 95
+          },
+          {
+            "name": "Yogurt Cup",
+            "calories": 75
+          }
+        ],
+        "totalCalories": 480,
+        "calorieLimit": 2000
+      }
+    }
+  },
+  {
+    "id": "cal-29",
+    "topic": "foodAndCalories",
+    "questionText": "You remove the cheese and mayo. What's the new total?",
+    "options": [
+      "365 cal",
+      "410 cal",
+      "320 cal",
+      "390 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original total: 580 cal",
+      "Cheese: 115 cal",
+      "Mayo: 100 cal",
+      "New total: 580 − 115 − 100 = 365 cal",
+      "You save 215 cal!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Deli Sandwich",
+        "ingredients": [
+          {
+            "name": "Sourdough Bread (2 sl)",
+            "calories": 170
+          },
+          {
+            "name": "Turkey Breast (3 oz)",
+            "calories": 90
+          },
+          {
+            "name": "Swiss Cheese",
+            "calories": 115
+          },
+          {
+            "name": "Lettuce & Tomato",
+            "calories": 15
+          },
+          {
+            "name": "Mayo (1 tbsp)",
+            "calories": 100
+          },
+          {
+            "name": "Pickle",
+            "calories": 5
+          },
+          {
+            "name": "Mustard",
+            "calories": 5
+          },
+          {
+            "name": "Chips (small bag)",
+            "calories": 80
+          }
+        ],
+        "totalCalories": 580,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-30",
+    "topic": "foodAndCalories",
+    "questionText": "This recipe serves 4. How many calories per serving?",
+    "options": [
+      "330 cal",
+      "290 cal",
+      "370 cal",
+      "310 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total recipe: 1320 cal",
+      "Per serving: 1320 ÷ 4 = 330 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Chicken Stir Fry (serves 4)",
+        "ingredients": [
+          {
+            "name": "Chicken Breast (1 lb)",
+            "calories": 480
+          },
+          {
+            "name": "Jasmine Rice (2 cups)",
+            "calories": 430
+          },
+          {
+            "name": "Mixed Vegetables",
+            "calories": 120
+          },
+          {
+            "name": "Sesame Oil",
+            "calories": 120
+          },
+          {
+            "name": "Soy Sauce",
+            "calories": 30
+          },
+          {
+            "name": "Ginger & Garlic",
+            "calories": 10
+          },
+          {
+            "name": "Cornstarch Slurry",
+            "calories": 30
+          },
+          {
+            "name": "Sesame Seeds",
+            "calories": 40
+          },
+          {
+            "name": "Green Onions",
+            "calories": 10
+          },
+          {
+            "name": "Sriracha",
+            "calories": 10
+          },
+          {
+            "name": "Lime Juice",
+            "calories": 5
+          },
+          {
+            "name": "Vegetable Broth",
+            "calories": 15
+          },
+          {
+            "name": "Brown Sugar (1 tsp)",
+            "calories": 15
+          },
+          {
+            "name": "Rice Vinegar",
+            "calories": 5
+          },
+          {
+            "name": "Chili Flakes",
+            "calories": 0
+          }
+        ],
+        "totalCalories": 1320,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-31",
+    "topic": "foodAndCalories",
+    "questionText": "What are the total calories in this movie snack combo?",
+    "options": [
+      "820 cal",
+      "750 cal",
+      "890 cal",
+      "780 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Popcorn: 400 cal",
+      "Soda: 250 cal",
+      "Candy: 170 cal",
+      "Total: 400 + 250 + 170 = 820 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Movie Night Combo",
+        "ingredients": [
+          {
+            "name": "Buttered Popcorn (medium)",
+            "calories": 400
+          },
+          {
+            "name": "Large Soda",
+            "calories": 250
+          },
+          {
+            "name": "Chocolate Candy Bar",
+            "calories": 170
+          }
+        ],
+        "totalCalories": 820,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-32",
+    "topic": "foodAndCalories",
+    "questionText": "Is this lunch under the 550-calorie limit?",
+    "options": [
+      "Yes, it's 495 cal",
+      "No, it's 560 cal",
+      "Yes, it's 450 cal",
+      "No, it's 610 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Soup: 180 cal",
+      "Bread: 120 cal",
+      "Apple: 95 cal",
+      "Water: 0 cal",
+      "Cookie: 100 cal",
+      "Total: 495 cal ✓ Under 550"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Soup & Bread Lunch",
+        "ingredients": [
+          {
+            "name": "Chicken Noodle Soup",
+            "calories": 180
+          },
+          {
+            "name": "Sourdough Roll",
+            "calories": 120
+          },
+          {
+            "name": "Apple",
+            "calories": 95
+          },
+          {
+            "name": "Water",
+            "calories": 0
+          },
+          {
+            "name": "Oatmeal Cookie",
+            "calories": 100
+          }
+        ],
+        "totalCalories": 495,
+        "calorieLimit": 550
+      }
+    }
+  },
+  {
+    "id": "cal-33",
+    "topic": "foodAndCalories",
+    "questionText": "You eat 2 slices out of 8. How many calories?",
+    "options": [
+      "250 cal",
+      "200 cal",
+      "300 cal",
+      "225 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Full pie: 1000 cal",
+      "Per slice: 1000 ÷ 8 = 125 cal",
+      "Two slices: 125 × 2 = 250 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Apple Pie (8 slices)",
+        "ingredients": [
+          {
+            "name": "Pie Crust",
+            "calories": 400
+          },
+          {
+            "name": "Apples (filling)",
+            "calories": 300
+          },
+          {
+            "name": "Sugar & Cinnamon",
+            "calories": 200
+          },
+          {
+            "name": "Butter",
+            "calories": 100
+          }
+        ],
+        "totalCalories": 1000,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-34",
+    "topic": "foodAndCalories",
+    "questionText": "If you add avocado (160 cal), will this bowl still be under 800 cal?",
+    "options": [
+      "No, it would be 810 cal",
+      "Yes, it would be 790 cal",
+      "No, it would be 850 cal",
+      "Yes, it would be 750 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Current total: 650 cal",
+      "Add avocado: 650 + 160 = 810 cal",
+      "810 > 800, so it's over the limit"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Grain Bowl",
+        "ingredients": [
+          {
+            "name": "Quinoa (1 cup)",
+            "calories": 220
+          },
+          {
+            "name": "Grilled Tofu",
+            "calories": 180
+          },
+          {
+            "name": "Roasted Sweet Potato",
+            "calories": 115
+          },
+          {
+            "name": "Kale",
+            "calories": 35
+          },
+          {
+            "name": "Tahini Dressing",
+            "calories": 100
+          }
+        ],
+        "totalCalories": 650,
+        "calorieLimit": 800
+      }
+    }
+  },
+  {
+    "id": "cal-35",
+    "topic": "foodAndCalories",
+    "questionText": "Which drink has the most calories?",
+    "options": [
+      "Mocha (290 cal)",
+      "Latte (190 cal)",
+      "Hot Chocolate (250 cal)",
+      "Chai Tea (210 cal)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Latte: 190 cal",
+      "Chai Tea: 210 cal",
+      "Hot Chocolate: 250 cal",
+      "Mocha: 290 cal — the highest!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Mocha",
+        "ingredients": [
+          {
+            "name": "Espresso",
+            "calories": 5
+          },
+          {
+            "name": "Whole Milk (steamed)",
+            "calories": 150
+          },
+          {
+            "name": "Chocolate Syrup",
+            "calories": 90
+          },
+          {
+            "name": "Whipped Cream",
+            "calories": 45
+          }
+        ],
+        "totalCalories": 290,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-36",
+    "topic": "foodAndCalories",
+    "questionText": "You skip the rice. How many calories is the meal now?",
+    "options": [
+      "335 cal",
+      "380 cal",
+      "290 cal",
+      "360 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total with rice: 550 cal",
+      "Rice: 215 cal",
+      "Without rice: 550 − 215 = 335 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Teriyaki Chicken Bowl",
+        "ingredients": [
+          {
+            "name": "White Rice (1 cup)",
+            "calories": 215
+          },
+          {
+            "name": "Teriyaki Chicken",
+            "calories": 200
+          },
+          {
+            "name": "Steamed Vegetables",
+            "calories": 50
+          },
+          {
+            "name": "Teriyaki Sauce (extra)",
+            "calories": 45
+          },
+          {
+            "name": "Sesame Seeds",
+            "calories": 20
+          },
+          {
+            "name": "Pickled Ginger",
+            "calories": 20
+          }
+        ],
+        "totalCalories": 550,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-37",
+    "topic": "foodAndCalories",
+    "questionText": "3 of these protein bars per day for 7 days. How many total calories?",
+    "options": [
+      "4200 cal",
+      "3600 cal",
+      "4800 cal",
+      "3900 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "One bar: 200 cal",
+      "Three per day: 200 × 3 = 600 cal",
+      "Over 7 days: 600 × 7 = 4200 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Protein Bar",
+        "ingredients": [
+          {
+            "name": "Whey Protein",
+            "calories": 80
+          },
+          {
+            "name": "Oat Flour",
+            "calories": 60
+          },
+          {
+            "name": "Dark Chocolate Coating",
+            "calories": 40
+          },
+          {
+            "name": "Almond Butter",
+            "calories": 20
+          }
+        ],
+        "totalCalories": 200,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-38",
+    "topic": "foodAndCalories",
+    "questionText": "Replacing the mayo (100 cal) with mustard (10 cal), what's the new total?",
+    "options": [
+      "430 cal",
+      "470 cal",
+      "400 cal",
+      "460 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original total: 520 cal",
+      "Remove mayo: 520 − 100 = 420 cal",
+      "Add mustard: 420 + 10 = 430 cal",
+      "You save 90 cal!"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Ham Sandwich",
+        "ingredients": [
+          {
+            "name": "Wheat Bread (2 sl)",
+            "calories": 140
+          },
+          {
+            "name": "Sliced Ham (3 oz)",
+            "calories": 120
+          },
+          {
+            "name": "Cheddar Cheese",
+            "calories": 110
+          },
+          {
+            "name": "Lettuce & Tomato",
+            "calories": 15
+          },
+          {
+            "name": "Mayonnaise (1 tbsp)",
+            "calories": 100
+          },
+          {
+            "name": "Pickle Spear",
+            "calories": 5
+          },
+          {
+            "name": "Kettle Chips",
+            "calories": 30
+          }
+        ],
+        "totalCalories": 520,
+        "calorieLimit": null
+      }
+    }
+  },
+  {
+    "id": "cal-39",
+    "topic": "foodAndCalories",
+    "questionText": "After this dinner, how many calories left for a 1800-cal day?",
+    "options": [
+      "1185 cal",
+      "1250 cal",
+      "1100 cal",
+      "1300 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Pasta: 340 cal",
+      "Alfredo Sauce: 180 cal",
+      "Garlic Bread: 95 cal",
+      "Dinner total: 615 cal",
+      "Remaining: 1800 − 615 = 1185 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Pasta Alfredo Dinner",
+        "ingredients": [
+          {
+            "name": "Fettuccine (1.5 cups)",
+            "calories": 340
+          },
+          {
+            "name": "Alfredo Sauce (½ cup)",
+            "calories": 180
+          },
+          {
+            "name": "Garlic Bread (1 piece)",
+            "calories": 95
+          }
+        ],
+        "totalCalories": 615,
+        "calorieLimit": 1800
+      }
+    }
+  },
+  {
+    "id": "cal-40",
+    "topic": "foodAndCalories",
+    "questionText": "This recipe serves 6. How many calories per serving?",
+    "options": [
+      "180 cal",
+      "210 cal",
+      "160 cal",
+      "200 cal"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total recipe: 1080 cal",
+      "Per serving: 1080 ÷ 6 = 180 cal"
+    ],
+    "scenarioData": {
+      "nutrition": {
+        "title": "Minestrone Soup (serves 6)",
+        "ingredients": [
+          {
+            "name": "Kidney Beans",
+            "calories": 225
+          },
+          {
+            "name": "Pasta Shells",
+            "calories": 200
+          },
+          {
+            "name": "Diced Tomatoes",
+            "calories": 50
+          },
+          {
+            "name": "Zucchini & Carrots",
+            "calories": 80
+          },
+          {
+            "name": "Celery & Onion",
+            "calories": 40
+          },
+          {
+            "name": "Vegetable Broth",
+            "calories": 30
+          },
+          {
+            "name": "Olive Oil (2 tbsp)",
+            "calories": 240
+          },
+          {
+            "name": "Spinach",
+            "calories": 15
+          },
+          {
+            "name": "Italian Seasoning",
+            "calories": 5
+          },
+          {
+            "name": "Parmesan (grated)",
+            "calories": 80
+          },
+          {
+            "name": "Garlic",
+            "calories": 15
+          },
+          {
+            "name": "Salt & Pepper",
+            "calories": 0
+          },
+          {
+            "name": "Bay Leaves",
+            "calories": 0
+          },
+          {
+            "name": "Red Pepper Flakes",
+            "calories": 0
+          },
+          {
+            "name": "Basil",
+            "calories": 0
+          },
+          {
+            "name": "Lemon Juice",
+            "calories": 5
+          },
+          {
+            "name": "Crusty Bread (side)",
+            "calories": 95
+          }
+        ],
+        "totalCalories": 1080,
+        "calorieLimit": null
+      }
+    }
+  }
+]

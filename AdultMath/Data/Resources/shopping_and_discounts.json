@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "shop-01",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "What's the sale price after a 25% discount?",
+    "options": [
+      "$59.99",
+      "$64.99",
+      "$54.99",
+      "$67.49"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original price: $79.99",
+      "Discount: $79.99 × 0.25 = $20.00",
+      "Sale price: $79.99 − $20.00 = $59.99"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "URBAN OUTFITTERS",
+        "items": [
+          {
+            "name": "Denim Jacket",
+            "price": 59.99,
+            "originalPrice": 79.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": 25,
+        "discountLabel": "25% OFF",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-02",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Which is the better deal per ounce?",
+    "options": [
+      "Large ($0.12/oz)",
+      "Small ($0.17/oz)",
+      "They're equal",
+      "Can't tell"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Small: $3.49 ÷ 20 oz = $0.17/oz",
+      "Large: $5.99 ÷ 48 oz = $0.12/oz",
+      "Large saves $0.05 per ounce"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "FRESH MARKET",
+        "items": [
+          {
+            "name": "Olive Oil (Small)",
+            "price": 3.49,
+            "originalPrice": null,
+            "unit": "20 oz"
+          },
+          {
+            "name": "Olive Oil (Large)",
+            "price": 5.99,
+            "originalPrice": null,
+            "unit": "48 oz"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-03",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Buy 2, get 1 free. How much do you pay for 3 shirts?",
+    "options": [
+      "$49.98",
+      "$74.97",
+      "$37.49",
+      "$62.48"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Each shirt: $24.99",
+      "Buy 2: $24.99 × 2 = $49.98",
+      "Third shirt is free",
+      "Total for 3: $49.98"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "GAP",
+        "items": [
+          {
+            "name": "Basic Tee (White)",
+            "price": 24.99,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Basic Tee (Gray)",
+            "price": 24.99,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Basic Tee (Navy)",
+            "price": 0.0,
+            "originalPrice": 24.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "BUY 2 GET 1 FREE",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-04",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "How much do you save on this entire purchase?",
+    "options": [
+      "$27.50",
+      "$22.00",
+      "$33.00",
+      "$19.75"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": [
+      "Sneakers original: $120.00, sale: $90.00 → save $30.00",
+      "Socks original: $15.00, sale: $12.00 → save $3.00",
+      "Total saved: $30.00 + $3.00 = $33.00"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "NIKE OUTLET",
+        "items": [
+          {
+            "name": "Running Sneakers",
+            "price": 90.0,
+            "originalPrice": 120.0,
+            "unit": null
+          },
+          {
+            "name": "Athletic Socks (3-pack)",
+            "price": 12.0,
+            "originalPrice": 15.0,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "CLEARANCE SALE"
+      }
+    }
+  },
+  {
+    "id": "shop-05",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "What's the price per pound for the bulk almonds?",
+    "options": [
+      "$6.25/lb",
+      "$7.50/lb",
+      "$5.80/lb",
+      "$6.99/lb"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total price: $12.50",
+      "Weight: 2 lbs",
+      "Per pound: $12.50 ÷ 2 = $6.25/lb"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "WHOLE FOODS",
+        "items": [
+          {
+            "name": "Raw Almonds (Bulk)",
+            "price": 12.5,
+            "originalPrice": null,
+            "unit": "2 lbs"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-06",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "There's an extra 10% off the sale price. What's the final price?",
+    "options": [
+      "$36.00",
+      "$40.00",
+      "$32.00",
+      "$38.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original: $50.00",
+      "Sale price (20% off): $50.00 × 0.80 = $40.00",
+      "Extra 10% off sale price: $40.00 × 0.10 = $4.00",
+      "Final: $40.00 − $4.00 = $36.00"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "MACY'S",
+        "items": [
+          {
+            "name": "Dress Shirt",
+            "price": 36.0,
+            "originalPrice": 50.0,
+            "unit": null
+          }
+        ],
+        "discountPercent": 20,
+        "discountLabel": "20% OFF + EXTRA 10%",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-07",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "How much per roll in the 12-pack vs buying singles?",
+    "options": [
+      "$0.83 vs $1.29 each",
+      "$0.95 vs $1.29 each",
+      "$1.10 vs $1.29 each",
+      "$0.75 vs $1.29 each"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "12-pack price: $9.99",
+      "Per roll: $9.99 ÷ 12 = $0.83",
+      "Single roll: $1.29",
+      "Savings per roll: $1.29 − $0.83 = $0.46"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "TARGET",
+        "items": [
+          {
+            "name": "Paper Towels (12-pack)",
+            "price": 9.99,
+            "originalPrice": null,
+            "unit": "12 rolls"
+          },
+          {
+            "name": "Paper Towels (single)",
+            "price": 1.29,
+            "originalPrice": null,
+            "unit": "1 roll"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-08",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "You have a $15 off coupon for orders over $75. What's your total?",
+    "options": [
+      "$72.97",
+      "$87.97",
+      "$82.97",
+      "$67.97"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Jeans: $49.99",
+      "Belt: $24.99",
+      "T-Shirt: $12.99",
+      "Subtotal: $87.97",
+      "Coupon ($15 off, order > $75): −$15.00",
+      "Final: $87.97 − $15.00 = $72.97"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "OLD NAVY",
+        "items": [
+          {
+            "name": "Slim Jeans",
+            "price": 49.99,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Leather Belt",
+            "price": 24.99,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Crew T-Shirt",
+            "price": 12.99,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "$15 OFF ORDERS $75+"
+      }
+    }
+  },
+  {
+    "id": "shop-09",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "What's the total after the member discount?",
+    "options": [
+      "$42.75",
+      "$47.50",
+      "$45.00",
+      "$40.38"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $47.50",
+      "Member discount (10%): $47.50 × 0.10 = $4.75",
+      "Final total: $47.50 − $4.75 = $42.75"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "COSTCO",
+        "items": [
+          {
+            "name": "Organic Coffee (2 lb)",
+            "price": 18.5,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Greek Yogurt (24-pack)",
+            "price": 15.0,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Mixed Nuts (3 lb)",
+            "price": 14.0,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": 10,
+        "discountLabel": "10% MEMBER DISCOUNT"
+      }
+    }
+  },
+  {
+    "id": "shop-10",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Which cereal is cheaper per ounce?",
+    "options": [
+      "Store brand ($0.15/oz)",
+      "Name brand ($0.25/oz)",
+      "They're equal",
+      "Need more info"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Store brand: $2.99 ÷ 20 oz = $0.15/oz",
+      "Name brand: $4.49 ÷ 18 oz = $0.25/oz",
+      "Store brand saves $0.10 per ounce"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "KROGER",
+        "items": [
+          {
+            "name": "Store Brand Cereal",
+            "price": 2.99,
+            "originalPrice": null,
+            "unit": "20 oz"
+          },
+          {
+            "name": "Name Brand Cereal",
+            "price": 4.49,
+            "originalPrice": null,
+            "unit": "18 oz"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-11",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Everything is 40% off. What do you pay for both items?",
+    "options": [
+      "$45.00",
+      "$54.00",
+      "$37.50",
+      "$48.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Sweater: $45.00, Scarf: $30.00",
+      "Total before discount: $75.00",
+      "40% off: $75.00 × 0.40 = $30.00",
+      "Final: $75.00 − $30.00 = $45.00"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "H&M",
+        "items": [
+          {
+            "name": "Knit Sweater",
+            "price": 27.0,
+            "originalPrice": 45.0,
+            "unit": null
+          },
+          {
+            "name": "Wool Scarf",
+            "price": 18.0,
+            "originalPrice": 30.0,
+            "unit": null
+          }
+        ],
+        "discountPercent": 40,
+        "discountLabel": "40% OFF EVERYTHING",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-12",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "You buy 4 avocados. The 4-pack or singles — which is cheaper?",
+    "options": [
+      "4-pack saves $1.96",
+      "Singles are cheaper",
+      "They cost the same",
+      "4-pack saves $0.99"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "4-pack price: $4.00",
+      "Single avocado: $1.49 each",
+      "4 singles: $1.49 × 4 = $5.96",
+      "Savings: $5.96 − $4.00 = $1.96"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "TRADER JOE'S",
+        "items": [
+          {
+            "name": "Avocados (4-pack)",
+            "price": 4.0,
+            "originalPrice": null,
+            "unit": "4 count"
+          },
+          {
+            "name": "Avocado (single)",
+            "price": 1.49,
+            "originalPrice": null,
+            "unit": "each"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-13",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "What's the effective discount percentage on these headphones?",
+    "options": [
+      "30% off",
+      "25% off",
+      "35% off",
+      "20% off"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original: $199.99",
+      "Sale: $139.99",
+      "Discount amount: $199.99 − $139.99 = $60.00",
+      "Percentage: $60.00 ÷ $199.99 ≈ 30%"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "BEST BUY",
+        "items": [
+          {
+            "name": "Wireless Headphones",
+            "price": 139.99,
+            "originalPrice": 199.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "SALE"
+      }
+    }
+  },
+  {
+    "id": "shop-14",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Buy 3, get 20% off the most expensive item. What's the total?",
+    "options": [
+      "$40.40",
+      "$44.00",
+      "$38.40",
+      "$46.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Candle $18, Lotion $14, Soap $12",
+      "Most expensive: Candle $18",
+      "20% off candle: $18 × 0.20 = $3.60",
+      "Discounted candle: $14.40",
+      "Total: $14.40 + $14.00 + $12.00 = $40.40"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "BATH & BODY WORKS",
+        "items": [
+          {
+            "name": "3-Wick Candle",
+            "price": 14.4,
+            "originalPrice": 18.0,
+            "unit": null
+          },
+          {
+            "name": "Body Lotion",
+            "price": 14.0,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Hand Soap",
+            "price": 12.0,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "BUY 3: 20% OFF HIGHEST ITEM",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-15",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Which pack of batteries has the lower cost per battery?",
+    "options": [
+      "24-pack ($0.42 each)",
+      "8-pack ($0.62 each)",
+      "They're equal",
+      "Can't compare"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "8-pack: $4.99 ÷ 8 = $0.62 each",
+      "24-pack: $9.99 ÷ 24 = $0.42 each",
+      "24-pack saves $0.20 per battery"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "WALGREENS",
+        "items": [
+          {
+            "name": "AA Batteries (8-pack)",
+            "price": 4.99,
+            "originalPrice": null,
+            "unit": "8 count"
+          },
+          {
+            "name": "AA Batteries (24-pack)",
+            "price": 9.99,
+            "originalPrice": null,
+            "unit": "24 count"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-16",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Tax is 8%. What's the total after tax on this purchase?",
+    "options": [
+      "$64.79",
+      "$62.50",
+      "$66.00",
+      "$59.99"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $59.99",
+      "Tax: $59.99 × 0.08 = $4.80",
+      "Total: $59.99 + $4.80 = $64.79"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "AMAZON FRESH",
+        "items": [
+          {
+            "name": "Bluetooth Speaker",
+            "price": 59.99,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "8% TAX APPLIES"
+      }
+    }
+  },
+  {
+    "id": "shop-17",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Second item is 50% off. What do you pay total?",
+    "options": [
+      "$52.49",
+      "$45.00",
+      "$59.98",
+      "$48.74"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "First pair: $34.99 (full price)",
+      "Second pair: $34.99 × 0.50 = $17.50",
+      "Total: $34.99 + $17.50 = $52.49"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "PAYLESS",
+        "items": [
+          {
+            "name": "Canvas Sneakers",
+            "price": 34.99,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Canvas Sneakers (2nd pair)",
+            "price": 17.5,
+            "originalPrice": 34.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "2nd PAIR 50% OFF",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-18",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Which size coffee is the best value per ounce?",
+    "options": [
+      "Large ($0.19/oz)",
+      "Medium ($0.22/oz)",
+      "Small ($0.28/oz)",
+      "They're all the same"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Small (12 oz): $3.39 ÷ 12 = $0.28/oz",
+      "Medium (16 oz): $3.49 ÷ 16 = $0.22/oz",
+      "Large (20 oz): $3.79 ÷ 20 = $0.19/oz",
+      "Large is the best value!"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "STARBUCKS",
+        "items": [
+          {
+            "name": "Iced Coffee (Small)",
+            "price": 3.39,
+            "originalPrice": null,
+            "unit": "12 oz"
+          },
+          {
+            "name": "Iced Coffee (Medium)",
+            "price": 3.49,
+            "originalPrice": null,
+            "unit": "16 oz"
+          },
+          {
+            "name": "Iced Coffee (Large)",
+            "price": 3.79,
+            "originalPrice": null,
+            "unit": "20 oz"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-19",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Spend $50, get a $10 gift card. What's the effective discount?",
+    "options": [
+      "20%",
+      "15%",
+      "25%",
+      "10%"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "You spend: $50.00",
+      "You receive: $10 gift card",
+      "Effective savings: $10 ÷ $50 = 20%"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "SEPHORA",
+        "items": [
+          {
+            "name": "Foundation",
+            "price": 32.0,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Mascara",
+            "price": 18.0,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "SPEND $50 → $10 GIFT CARD"
+      }
+    }
+  },
+  {
+    "id": "shop-20",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "How much do you save buying the annual plan instead of monthly?",
+    "options": [
+      "$40.88",
+      "$24.00",
+      "$50.00",
+      "$35.88"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Monthly: $9.99 × 12 = $119.88/year",
+      "Annual: $79.00/year",
+      "Savings: $119.88 − $79.00 = $40.88"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "SPOTIFY",
+        "items": [
+          {
+            "name": "Monthly Plan",
+            "price": 9.99,
+            "originalPrice": null,
+            "unit": "per month"
+          },
+          {
+            "name": "Annual Plan",
+            "price": 79.0,
+            "originalPrice": null,
+            "unit": "per year"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-21",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Which detergent is cheaper per load?",
+    "options": [
+      "Large ($0.18/load)",
+      "Small ($0.25/load)",
+      "Same price per load",
+      "Can't compare"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Small (32 loads): $7.99 ÷ 32 = $0.25/load",
+      "Large (96 loads): $16.99 ÷ 96 = $0.18/load",
+      "Large saves $0.07 per load"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "WALMART",
+        "items": [
+          {
+            "name": "Detergent (Small)",
+            "price": 7.99,
+            "originalPrice": null,
+            "unit": "32 loads"
+          },
+          {
+            "name": "Detergent (Large)",
+            "price": 16.99,
+            "originalPrice": null,
+            "unit": "96 loads"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-22",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "You have 15% off and free shipping (normally $8.99). Total savings?",
+    "options": [
+      "$23.99",
+      "$15.00",
+      "$8.99",
+      "$20.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Item price: $99.99",
+      "15% off: $99.99 × 0.15 = $15.00",
+      "Free shipping saves: $8.99",
+      "Total savings: $15.00 + $8.99 = $23.99"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "NORDSTROM",
+        "items": [
+          {
+            "name": "Leather Boots",
+            "price": 84.99,
+            "originalPrice": 99.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": 15,
+        "discountLabel": "15% OFF + FREE SHIPPING"
+      }
+    }
+  },
+  {
+    "id": "shop-23",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "3 for $10 vs $3.99 each. How much do you save buying the deal for 3?",
+    "options": [
+      "$1.97",
+      "$2.97",
+      "$1.49",
+      "$0.99"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "3 at regular price: $3.99 × 3 = $11.97",
+      "3 for $10 deal: $10.00",
+      "Savings: $11.97 − $10.00 = $1.97"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "CVS",
+        "items": [
+          {
+            "name": "Body Wash (single)",
+            "price": 3.99,
+            "originalPrice": null,
+            "unit": "each"
+          },
+          {
+            "name": "Body Wash (3 for $10)",
+            "price": 3.33,
+            "originalPrice": 3.99,
+            "unit": "each in deal"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "3 FOR $10"
+      }
+    }
+  },
+  {
+    "id": "shop-24",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Gas is $3.89/gallon. You need 12 gallons. A gas card gives 5¢ off per gallon. How much do you save?",
+    "options": [
+      "$0.60",
+      "$0.50",
+      "$0.72",
+      "$0.48"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Discount per gallon: $0.05",
+      "Gallons needed: 12",
+      "Total savings: $0.05 × 12 = $0.60"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "SHELL STATION",
+        "items": [
+          {
+            "name": "Regular Unleaded",
+            "price": 3.84,
+            "originalPrice": 3.89,
+            "unit": "per gallon"
+          },
+          {
+            "name": "Fuel Rewards Card",
+            "price": 0.0,
+            "originalPrice": null,
+            "unit": "5¢/gal off"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "FUEL REWARDS: 5¢ OFF"
+      }
+    }
+  },
+  {
+    "id": "shop-25",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "You return one item and buy another. What's the net cost?",
+    "options": [
+      "$5.00 more",
+      "$8.00 less",
+      "$12.00 more",
+      "$3.00 more"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Returning: $29.99 refund",
+      "Buying: $34.99",
+      "Net cost: $34.99 − $29.99 = $5.00 more"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "ZARA",
+        "items": [
+          {
+            "name": "Return: Blue Sweater",
+            "price": -29.99,
+            "originalPrice": null,
+            "unit": "refund"
+          },
+          {
+            "name": "Buy: Green Sweater",
+            "price": 34.99,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "EXCHANGE"
+      }
+    }
+  },
+  {
+    "id": "shop-26",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Cashback credit card gives 3% back. How much cashback on this groceries trip?",
+    "options": [
+      "$3.27",
+      "$2.50",
+      "$4.00",
+      "$3.75"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Total groceries: $109.00",
+      "3% cashback: $109.00 × 0.03 = $3.27"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "SAFEWAY",
+        "items": [
+          {
+            "name": "Weekly Groceries",
+            "price": 109.0,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "3% CASHBACK"
+      }
+    }
+  },
+  {
+    "id": "shop-27",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Price went from $12.99 to $15.99. What's the percent increase?",
+    "options": [
+      "About 23%",
+      "About 30%",
+      "About 18%",
+      "About 25%"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Increase: $15.99 − $12.99 = $3.00",
+      "Percent: $3.00 ÷ $12.99 = 0.231 ≈ 23%"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "INSTACART",
+        "items": [
+          {
+            "name": "Organic Milk (gal)",
+            "price": 15.99,
+            "originalPrice": 12.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "PRICE INCREASE"
+      }
+    }
+  },
+  {
+    "id": "shop-28",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Subscribe & Save gives 15% off. What's the monthly delivery cost?",
+    "options": [
+      "$21.24",
+      "$24.99",
+      "$19.99",
+      "$22.49"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Regular price: $24.99",
+      "15% off: $24.99 × 0.15 = $3.75",
+      "Subscribe price: $24.99 − $3.75 = $21.24"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "AMAZON",
+        "items": [
+          {
+            "name": "Dog Food (30 lb)",
+            "price": 21.24,
+            "originalPrice": 24.99,
+            "unit": "monthly delivery"
+          }
+        ],
+        "discountPercent": 15,
+        "discountLabel": "SUBSCRIBE & SAVE 15%",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-29",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Happy hour: all appetizers half price. What's the total?",
+    "options": [
+      "$27.00",
+      "$34.00",
+      "$20.00",
+      "$31.00"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Nachos: $14 → $7.00",
+      "Wings: $16 → $8.00",
+      "Drinks are full price: $6.00 × 2 = $12.00",
+      "Total: $7.00 + $8.00 + $12.00 = $27.00"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "APPLEBEE'S",
+        "items": [
+          {
+            "name": "Loaded Nachos",
+            "price": 7.0,
+            "originalPrice": 14.0,
+            "unit": null
+          },
+          {
+            "name": "Boneless Wings",
+            "price": 8.0,
+            "originalPrice": 16.0,
+            "unit": null
+          },
+          {
+            "name": "Craft Beer (2x)",
+            "price": 12.0,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": 50,
+        "discountLabel": "HAPPY HOUR: 50% OFF APPS",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-30",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "You're $12.01 away from free shipping ($50 minimum). Which item gets you there cheapest?",
+    "options": [
+      "Socks ($12.99)",
+      "T-Shirt ($19.99)",
+      "Hat ($15.99)",
+      "Belt ($24.99)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Current cart: $37.99",
+      "Need $50.00 − $37.99 = $12.01 more",
+      "Socks at $12.99 is the cheapest option over $12.01",
+      "Shipping costs $7.99, so spending $12.99 to save $7.99 means you only 'overspend' $5.00"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "UNIQLO",
+        "items": [
+          {
+            "name": "Cart Subtotal",
+            "price": 37.99,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "FREE SHIPPING AT $50"
+      }
+    }
+  },
+  {
+    "id": "shop-31",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "What's the sale price after a 30% discount?",
+    "options": [
+      "$41.99",
+      "$47.99",
+      "$35.99",
+      "$44.99"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original price: $59.99",
+      "Discount: $59.99 × 0.30 = $18.00",
+      "Sale price: $59.99 − $18.00 = $41.99"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "ADIDAS OUTLET",
+        "items": [
+          {
+            "name": "Running Shorts",
+            "price": 41.99,
+            "originalPrice": 59.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": 30,
+        "discountLabel": "30% OFF",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-32",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Which yogurt is cheaper per cup?",
+    "options": [
+      "12-pack ($0.58/cup)",
+      "4-pack ($0.75/cup)",
+      "They're equal",
+      "Can't compare"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "4-pack: $2.99 ÷ 4 = $0.75/cup",
+      "12-pack: $6.99 ÷ 12 = $0.58/cup",
+      "12-pack saves $0.17 per cup"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "ALDI",
+        "items": [
+          {
+            "name": "Greek Yogurt (4-pack)",
+            "price": 2.99,
+            "originalPrice": null,
+            "unit": "4 cups"
+          },
+          {
+            "name": "Greek Yogurt (12-pack)",
+            "price": 6.99,
+            "originalPrice": null,
+            "unit": "12 cups"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-33",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Everything is 35% off. What do you pay for both items?",
+    "options": [
+      "$52.00",
+      "$58.50",
+      "$46.80",
+      "$55.25"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Jacket: $60.00, Hat: $20.00",
+      "Total before discount: $80.00",
+      "35% off: $80.00 × 0.35 = $28.00",
+      "Final: $80.00 − $28.00 = $52.00"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "COLUMBIA",
+        "items": [
+          {
+            "name": "Fleece Jacket",
+            "price": 39.0,
+            "originalPrice": 60.0,
+            "unit": null
+          },
+          {
+            "name": "Beanie Hat",
+            "price": 13.0,
+            "originalPrice": 20.0,
+            "unit": null
+          }
+        ],
+        "discountPercent": 35,
+        "discountLabel": "35% OFF EVERYTHING",
+        "hideSalePrices": true
+      }
+    }
+  },
+  {
+    "id": "shop-34",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Tax is 6.5%. What's the total after tax?",
+    "options": [
+      "$31.94",
+      "$33.50",
+      "$30.00",
+      "$32.60"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Subtotal: $29.99",
+      "Tax: $29.99 × 0.065 = $1.95",
+      "Total: $29.99 + $1.95 = $31.94"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "MICHAELS",
+        "items": [
+          {
+            "name": "Acrylic Paint Set",
+            "price": 29.99,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "6.5% TAX APPLIES"
+      }
+    }
+  },
+  {
+    "id": "shop-35",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Buy 5, get the 6th free. How much do you pay for 6 candles?",
+    "options": [
+      "$44.95",
+      "$53.94",
+      "$35.96",
+      "$49.45"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Each candle: $8.99",
+      "Buy 5: $8.99 × 5 = $44.95",
+      "Sixth candle is free",
+      "Total for 6: $44.95"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "YANKEE CANDLE",
+        "items": [
+          {
+            "name": "Vanilla Bean Candle",
+            "price": 8.99,
+            "originalPrice": null,
+            "unit": "each"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "BUY 5 GET 1 FREE"
+      }
+    }
+  },
+  {
+    "id": "shop-36",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "What's the effective discount percentage on this TV?",
+    "options": [
+      "25% off",
+      "20% off",
+      "30% off",
+      "22% off"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Original: $399.99",
+      "Sale: $299.99",
+      "Discount amount: $399.99 − $299.99 = $100.00",
+      "Percentage: $100.00 ÷ $399.99 ≈ 25%"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "COSTCO",
+        "items": [
+          {
+            "name": "43\" Smart TV",
+            "price": 299.99,
+            "originalPrice": 399.99,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "CLEARANCE"
+      }
+    }
+  },
+  {
+    "id": "shop-37",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Which toothpaste is cheaper per ounce?",
+    "options": [
+      "Large ($0.67/oz)",
+      "Regular ($0.83/oz)",
+      "They're equal",
+      "Can't compare"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Regular (6 oz): $4.99 ÷ 6 = $0.83/oz",
+      "Large (9 oz): $5.99 ÷ 9 = $0.67/oz",
+      "Large saves $0.16 per ounce"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "WALGREENS",
+        "items": [
+          {
+            "name": "Toothpaste (Regular)",
+            "price": 4.99,
+            "originalPrice": null,
+            "unit": "6 oz"
+          },
+          {
+            "name": "Toothpaste (Large)",
+            "price": 5.99,
+            "originalPrice": null,
+            "unit": "9 oz"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-38",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Loyalty points give you $5 off every $40 spent. How much off a $120 purchase?",
+    "options": [
+      "$15.00",
+      "$10.00",
+      "$20.00",
+      "$12.50"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Purchase: $120.00",
+      "$120 ÷ $40 = 3 rewards",
+      "Savings: 3 × $5.00 = $15.00"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "PETSMART",
+        "items": [
+          {
+            "name": "Premium Dog Food (30 lb)",
+            "price": 65.0,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Dog Treats Variety Pack",
+            "price": 24.0,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Dog Toy Bundle",
+            "price": 31.0,
+            "originalPrice": null,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "$5 OFF EVERY $40"
+      }
+    }
+  },
+  {
+    "id": "shop-39",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "How much do you save per month with the family plan vs 4 individual plans?",
+    "options": [
+      "$4.97",
+      "$3.00",
+      "$6.00",
+      "$2.50"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Individual: $4.99 × 4 = $19.96/month",
+      "Family plan: $14.99/month",
+      "Savings: $19.96 − $14.99 = $4.97/month"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "MUSIC STREAM",
+        "items": [
+          {
+            "name": "Individual Plan",
+            "price": 4.99,
+            "originalPrice": null,
+            "unit": "per person/month"
+          },
+          {
+            "name": "Family Plan (up to 6)",
+            "price": 14.99,
+            "originalPrice": null,
+            "unit": "per month"
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": null
+      }
+    }
+  },
+  {
+    "id": "shop-40",
+    "topic": "shoppingAndDiscounts",
+    "questionText": "Second item 25% off (off the cheaper item). What's the total?",
+    "options": [
+      "$66.24",
+      "$59.99",
+      "$71.24",
+      "$63.74"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": [
+      "Chinos: $44.99 (full price)",
+      "Polo: $28.33 (full price)",
+      "25% off cheaper item (Polo): $28.33 × 0.25 = $7.08",
+      "Discounted Polo: $28.33 − $7.08 = $21.25",
+      "Total: $44.99 + $21.25 = $66.24"
+    ],
+    "scenarioData": {
+      "priceTag": {
+        "storeName": "BANANA REPUBLIC",
+        "items": [
+          {
+            "name": "Slim Chinos",
+            "price": 44.99,
+            "originalPrice": null,
+            "unit": null
+          },
+          {
+            "name": "Polo Shirt",
+            "price": 21.25,
+            "originalPrice": 28.33,
+            "unit": null
+          }
+        ],
+        "discountPercent": null,
+        "discountLabel": "2nd ITEM 25% OFF",
+        "hideSalePrices": true
+      }
+    }
+  }
+]
